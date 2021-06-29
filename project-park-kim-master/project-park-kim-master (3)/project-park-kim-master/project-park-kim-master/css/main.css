@@ -1,0 +1,277 @@
+/* 웹 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* a reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrap {
+    font: 14px "Noto Sans KR", sans-serif;
+}
+
+.en {
+    font-family: "Exo 2", sans-serif;
+}
+
+/* wrap */
+.wrap {
+    width: 1550px;
+    margin: 0 auto;
+    background: #E6E6E6;
+}
+
+/* section first */
+section.first{
+    width: 100%; 
+}
+
+section.first .text{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    background: #324660;
+    border-radius: 60px;
+    color: #fff;
+   
+}
+
+section.first .container{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+
+}
+
+section.first .container .item{
+   width: 300px;
+   height: 300px;
+   border: 3px solid #000;
+}
+
+section.first #item1{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임1.jfif) no-repeat center / cover;
+}
+
+section.first #item2{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임2.jpg) no-repeat center / cover;
+}
+
+section.first #item3{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임3.jpg) no-repeat center / cover;
+}
+
+section.first #item4{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임4.jpg) no-repeat center / cover;
+}
+
+section.first #item5{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임5.jpg) no-repeat center / cover;
+}
+
+section.first #item6{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임6.jpg) no-repeat center / cover;
+}
+
+section.first #item7{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임7.jpg) no-repeat center / cover;
+}
+
+section.first #item8{
+    width: 100%;
+    height: 100%;
+    background: url(../신작게임8.jpg) no-repeat center / cover;
+}
+/* section second */
+section.second {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section.second .text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border-bottom: 6px solid #324660;
+}
+
+section.second ul {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+section.second ul li {
+    flex: 1;
+}
+
+section.second ul li a .img-box {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid #000;
+}
+
+section.second ul li a .img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+section.second ul li a .text h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+section.second ul li a .text p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+section.second ul li a .text .more {
+    background: #324660;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+section.second ul li a .text .more:hover {
+    background: #6C98D2;
+}
+
+
+/* section second */
+
+/* section third */
+section.third {
+    width: 100%;
+
+}
+
+section.third .text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border-bottom: 6px solid #324660;
+}
+
+section.third ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+section.third ul li{
+    flex: 1;
+    
+}
+section.third ul>li{
+    border: 3px solid #324660;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+section.third ul>li>p{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.third ul>li>p i {
+   margin-right: 10px;
+   color: #324660;
+}
+
+section.third ul li a .img-box{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+section.third ul li a .img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+section.third ul li a .text h3{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+ 
+    background: #324660;
+    color: #fff;
+}
+
+section.third ul li a .text h3 span{
+    font-size: 45px;
+    margin-right: 10px;
+    color: #E7D148;
+}
+
+section.third ul li a .text p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 15px;
+}
+
+section.third ul ol {
+    padding: 20px;
+}
+
+section.third ul ol a li{
+border-bottom: 3px solid #324660;
+font-size: 20px;
+}
+
+section.third ul ol a li span{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+section.third ul ol a li .silver{
+    color: #707070;
+}
+
+section.third ul ol a li .bronze{
+    color: #895537;
+}
+/* section third */
