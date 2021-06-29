@@ -1,0 +1,147 @@
+/* 웹 폰트 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* a reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    font: 14px "Noto Sans KR", sans-serif;
+}
+
+.en {
+    font-family: "Exo 2", sans-serif;
+}
+
+/* section second */
+section.second{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+section.second .text h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 1100px;
+    margin:0 auto 50px;
+    padding: 20px;
+    border-bottom: 5px solid #324660;
+}
+
+section.second ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.second ul li{
+margin-right: 30px;
+
+}
+
+section.second ul li a .img-box{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+section.second ul li a .img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+section.second ul li a .text h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 10px 10px 0;
+    margin-top: 20px;
+
+}
+
+section.second ul li a .text p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+}
+
+section.second ul li a .more{
+   background: #324660;
+   width: 100px;
+   height: 30px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+
+/* section second */
+
+/* section third */
+section.third{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+section.third .text h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    width: 1100px;
+    margin:0 auto 50px;
+    padding: 20px;
+    border-bottom: 5px solid #324660;
+}
+
+section.third ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1700px;
+    margin: 0 auto;
+    
+    
+}
+
+section.third ul li{
+margin-right: 30px;
+
+}
+
+section.third ul li a .img-box{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+section.third ul li a .img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+section.third ul li a .text h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 10px 10px 0;
+    margin-top: 20px;
+
+}
+
+section.third ul li a .text p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+}
+
+section.second ul li a .more{
+   background: #324660;
+   width: 100px;
+   height: 30px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+
+
