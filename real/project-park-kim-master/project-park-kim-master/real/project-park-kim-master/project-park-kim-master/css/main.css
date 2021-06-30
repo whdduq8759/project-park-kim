@@ -214,48 +214,88 @@ section.first #item1 {
     width: 100%;
     height: 100%;
     background: url(../신작게임1.jfif) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item1:hover{
+    transform: scale(1.1);
 }
 
 section.first #item2 {
     width: 100%;
     height: 100%;
     background: url(../신작게임2.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item2:hover{
+    transform: scale(1.1);
 }
 
 section.first #item3 {
     width: 100%;
     height: 100%;
     background: url(../신작게임3.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item3:hover{
+    transform: scale(1.1);
 }
 
 section.first #item4 {
     width: 100%;
     height: 100%;
     background: url(../신작게임4.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item4:hover{
+    transform: scale(1.1);
 }
 
 section.first #item5 {
     width: 100%;
     height: 100%;
     background: url(../신작게임5.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item5:hover{
+    transform: scale(1.1);
 }
 
 section.first #item6 {
     width: 100%;
     height: 100%;
     background: url(../신작게임6.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item6:hover{
+    transform: scale(1.1);
 }
 
 section.first #item7 {
     width: 100%;
     height: 100%;
     background: url(../신작게임7.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item7:hover{
+    transform: scale(1.1);
 }
 
 section.first #item8 {
     width: 100%;
     height: 100%;
     background: url(../신작게임8.jpg) no-repeat center / cover;
+    transition: 0.6s;
+}
+
+section.first #item8:hover{
+    transform: scale(1.1);
 }
 
 /* section second */
